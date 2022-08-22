@@ -13,9 +13,9 @@ execution:
 scenarios:
   BlazeDemo123:
     variables:
-      username: "dnyaneshwar"
-      password: "dnyaneshwar123"
-      bearer: ""
+      username: '${username}'
+      password: '${password}'
+      bearer: '${bearer}'
       bearerToken: ${bearerToken}
       pass: ${pass}
     generate-flow-markers: true
